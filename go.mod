@@ -1,3 +1,3 @@
-module github.com/mario-mui/leetcode
+module lcmod
 
 go 1.16

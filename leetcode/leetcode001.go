@@ -1,6 +1,6 @@
 package leetcode
 
-func twoSum(list []int, target int) []int {
+func TwoSum(list []int, target int) []int {
 	m := make(map[int]int)
 
 	for i := 0; i < len(list); i++ {
