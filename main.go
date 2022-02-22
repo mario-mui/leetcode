@@ -25,4 +25,6 @@ func main() {
 	l3 := leetcode.AddTwoNumbers(&l1, &l2)
 	fmt.Println("leetcode002: 2->4->6 1->3->5 ===>", l3.Value, "->", l3.Next.Value, "->", l3.Next.Next.Value)
 
+	// leetcode 003
+	fmt.Println("leetcode003: ascfards ===>", leetcode.LengthOfLongestSubstring("ascfards"))
 }
