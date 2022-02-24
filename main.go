@@ -27,4 +27,7 @@ func main() {
 
 	// leetcode 003
 	fmt.Println("leetcode003: ascfards ===>", leetcode.LengthOfLongestSubstring("ascfards"))
+
+	// leetcode 004
+	fmt.Println("leetcode003: {2, 5, 9, 12} {1, 3, 4, 8, 11}  ===>", leetcode.FindMedianSortedArrays([]int{2, 3, 9, 12}, []int{1, 3, 4, 8, 11}))
 }
