@@ -12,6 +12,13 @@ func FindMedianSortedArrays(nums1 []int, nums2 []int) float64 {
 	if len(nums1) > len(nums2) {
 		return FindMedianSortedArrays(nums2, nums1)
 	}
+	// mid = l + (r - l) / 2 二分找中点的完美解法，
+	/*
+		不会溢出
+		上下界求法统一
+		下界：mid = l + (r - l) / 2
+		上界：mid = l + (r - l + 1) / 2
+	*/
 	low, high, k, nums1Mid, nums2Mid := 0, len(nums1), (len(nums1)+len(nums2)+1)>>1, 0, 0
 	for low <= high {
 		// nums1:  ……………… nums1[nums1Mid-1] | nums1[nums1Mid] ……………………

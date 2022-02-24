@@ -29,5 +29,9 @@ func main() {
 	fmt.Println("leetcode003: ascfards ===>", leetcode.LengthOfLongestSubstring("ascfards"))
 
 	// leetcode 004
-	fmt.Println("leetcode003: {2, 5, 9, 12} {1, 3, 4, 8, 11}  ===>", leetcode.FindMedianSortedArrays([]int{2, 3, 9, 12}, []int{1, 3, 4, 8, 11}))
+	fmt.Println("leetcode004: {2, 5, 9, 12} {1, 3, 4, 8, 11}  ===>", leetcode.FindMedianSortedArrays([]int{2, 3, 9, 12}, []int{1, 3, 4, 8, 11}))
+
+	//l leetcode 005
+	fmt.Println("leetcode005: axadaxd ===>", leetcode.LongestPalindrome("axadaxd"))
+	fmt.Println("leetcode005: axaddasd ===>", leetcode.LongestPalindrome("axaddasd"))
 }
