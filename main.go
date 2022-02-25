@@ -34,4 +34,7 @@ func main() {
 	//l leetcode 005
 	fmt.Println("leetcode005: axadaxd ===>", leetcode.LongestPalindrome("axadaxd"))
 	fmt.Println("leetcode005: axaddasd ===>", leetcode.LongestPalindrome("axaddasd"))
+
+	// leetcode 006
+	fmt.Println("leetcode006: PAYPALISHIRING ===>", leetcode.Convert("AB", 1))
 }
