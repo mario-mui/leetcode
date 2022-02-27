@@ -37,4 +37,7 @@ func main() {
 
 	// leetcode 006
 	fmt.Println("leetcode006: PAYPALISHIRING ===>", leetcode.Convert("AB", 1))
+
+	// leetcode 007
+	fmt.Println("leetcode007: 3212 ===>", leetcode.Reverse(3212))
 }
