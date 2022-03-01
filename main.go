@@ -40,4 +40,9 @@ func main() {
 
 	// leetcode 007
 	fmt.Println("leetcode007: 3212 ===>", leetcode.Reverse(3212))
+
+	// leetcode 009
+	fmt.Println("leetcode009: 3212 ===>", leetcode.PalindromeNumner(3212))
+	fmt.Println("leetcode009: -121 ===>", leetcode.PalindromeNumner(-121))
+	fmt.Println("leetcode009: 123321 ===>", leetcode.PalindromeNumner(123321))
 }
