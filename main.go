@@ -47,5 +47,8 @@ func main() {
 	// fmt.Println("leetcode009: 123321 ===>", leetcode.PalindromeNumner(123321))
 
 	// leetcode 010
-	fmt.Println("leetcode009: aac ===>", leetcode.IsMatch("aa", ".*"))
+	// fmt.Println("leetcode009: aac ===>", leetcode.IsMatch("aa", ".*"))
+
+	// leetcode 011
+	fmt.Println("leetcode011 ===>", leetcode.MaxArea([]int{1, 2, 4, 3}))
 }
