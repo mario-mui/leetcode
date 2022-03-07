@@ -50,5 +50,8 @@ func main() {
 	// fmt.Println("leetcode009: aac ===>", leetcode.IsMatch("aa", ".*"))
 
 	// leetcode 011
-	fmt.Println("leetcode011 ===>", leetcode.MaxArea([]int{1, 2, 4, 3}))
+	// fmt.Println("leetcode011 ===>", leetcode.MaxArea([]int{1, 2, 4, 3}))
+
+	//leetcode 012
+	fmt.Println("leetcood012 ===>", leetcode.IntToRoman(584))
 }
