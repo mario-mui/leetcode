@@ -53,8 +53,11 @@ func main() {
 	// fmt.Println("leetcode011 ===>", leetcode.MaxArea([]int{1, 2, 4, 3}))
 
 	//leetcode 012
-	fmt.Println("leetcood012: 2584 ===> ", leetcode.IntToRoman(2584))
+	// fmt.Println("leetcood012: 2584 ===> ", leetcode.IntToRoman(2584))
 
 	// leetcode 013
-	fmt.Println("leetcood013: MMDLXXXIV===>", leetcode.RomanToInt("MMDLXXXIV"))
+	// fmt.Println("leetcood013: MMDLXXXIV===>", leetcode.RomanToInt("MMDLXXXIV"))
+
+	//leetcode 014
+	fmt.Println("leetcood014: ===> ", leetcode.LongestCommonPrefix([]string{"ab", "a"}))
 }
